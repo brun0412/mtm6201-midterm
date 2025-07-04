@@ -83,3 +83,60 @@ li a {
 .skiplinks a:focus {
     top: 0;
 }
+
+section {
+    background-color: var(--offwhite);
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+nav {
+    position: fixed;
+    height: 65px;
+    z-index: 1;
+    align-content: center;
+    width:100%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+nav .wrapper {
+    border-bottom: 1px solid #fff8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: calc(100% - 35px);
+}
+
+.material-icons-outlined {
+    color: #fff;
+}
+
+.desknav {
+    display: none;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    background-color: #0008;
+    z-index: 2;
+    right: 0;
+}
+
+.mobilenav:hover .dropdown {
+    display: block;
+}
+
+.dropdown li {
+    border-bottom: 1px solid #fff8;
+    padding: 5px;
+}
+
+/* Did not see a way to make a touchscreen friendly dropdown without js */
