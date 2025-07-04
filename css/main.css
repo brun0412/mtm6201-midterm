@@ -71,6 +71,7 @@ li a {
     margin: 0;
     padding: 0;
     align-self: center;
+    z-index: 3;
 }
 
 .skiplinks a {
@@ -91,6 +92,51 @@ section {
 .wrapper {
     max-width: 1200px;
     margin: auto;
+}
+
+button {
+    border-radius: 0;
+    border: 2px solid #fff;
+    height: 56px;
+    padding: 15px 40px;
+    font-family: karla, sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+
+.buwh {
+    background-color: #fff;
+    color: #000;
+}
+
+.buwh:hover, .buwh:focus {
+    background-color: var(--bgorange);
+    color: #000;
+}
+
+.bubl {
+    background-color: #000;
+    color: #fff;
+}
+
+.bubl:hover, .bubl:focus {
+    background-color: var(--bgorange);
+}
+
+.buol {
+    background-color: none;
+    color: #fff;
+}
+
+.buol:hover, .buol:focus {
+    background-color: #fff;
+    color: #000;
+}
+
+button {
+    transition: all 0.5s;
 }
 
 nav {
@@ -140,3 +186,12 @@ nav .wrapper {
 }
 
 /* Did not see a way to make a touchscreen friendly dropdown without js */
+
+.hero {
+    background-image: url("../images/hero-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 496px;
+    padding: 10px;
+    align-content: center;
+}
