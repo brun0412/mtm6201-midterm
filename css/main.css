@@ -119,7 +119,6 @@ button {
     font-size: 1.25rem;
     line-height: 26px;
     text-transform: uppercase;
-    margin: 10px;
     width: fit-content;
 }
 
@@ -222,6 +221,10 @@ nav .wrapper {
 
 .herotext {
     height: 328px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
 
 .herotext .buwh {
@@ -297,4 +300,18 @@ nav .wrapper {
     flex-direction: column;
     gap: 20px;
     align-items: center;
+}
+
+.about .wrapper {
+    gap: 10px;
+}
+
+.aboutinner {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.abouttxt {
+    gap: 20px;
 }
