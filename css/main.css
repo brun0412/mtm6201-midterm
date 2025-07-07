@@ -90,6 +90,7 @@ section {
 }
 
 .wrapper {
+    width: calc(100% - 35px);
     max-width: 1200px;
     margin: auto;
 }
@@ -104,6 +105,7 @@ button {
     font-size: 1.25rem;
     line-height: 26px;
     text-transform: uppercase;
+    margin: 10px;
 }
 
 .buwh {
@@ -157,7 +159,6 @@ nav .wrapper {
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    width: calc(100% - 35px);
 }
 
 .material-icons-outlined {
@@ -194,4 +195,27 @@ nav .wrapper {
     height: 496px;
     padding: 10px;
     align-content: center;
+    text-align: center;
+    color: #fff;
+    background-color: #0008;
 }
+
+.hero .wrapper {
+    padding-top: 55px;
+}
+
+.herotext {
+    height: 328px;
+}
+
+.herotext .buwh {
+    height: auto;
+    padding: 4px 20px;
+}
+
+.herotext article {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
