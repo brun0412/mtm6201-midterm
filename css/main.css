@@ -103,6 +103,12 @@ section {
     gap: 20px;
 }
 
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 button {
     border-radius: 0;
     border: 2px solid #fff;
@@ -114,6 +120,7 @@ button {
     line-height: 26px;
     text-transform: uppercase;
     margin: 10px;
+    width: fit-content;
 }
 
 .buwh {
@@ -136,7 +143,7 @@ button {
 }
 
 .buol {
-    background-color: none;
+    background-color: #0000;
     color: #fff;
 }
 
@@ -206,6 +213,7 @@ nav .wrapper {
     text-align: center;
     color: #fff;
     background-color: #0008;
+    background-blend-mode: overlay;
 }
 
 .hero .wrapper {
@@ -222,15 +230,7 @@ nav .wrapper {
 }
 
 .herotext article {
-    display: flex;
-    flex-direction: column;
     gap: 12px;
-}
-
-.wrapper article {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
 }
 
 .gallery {
@@ -273,4 +273,28 @@ nav .wrapper {
 
 .offercard img {
     width: 160px;
+}
+
+.menuloc {
+    background-image: url("../images/coffee-shop.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-color: #0008;
+    background-blend-mode: overlay;
+    color: #fff;
+}
+
+.menulocinner {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    justify-content: center;
+}
+
+.menulocinner div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
 }
