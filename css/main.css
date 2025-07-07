@@ -22,6 +22,10 @@
     --head1: clamp(2rem, 0.9700704225352113rem + 4.225352112676056vw, 3.875rem);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 p {
     font-family: karla, sans-serif;
     font-weight: 400;
@@ -223,7 +227,7 @@ nav .wrapper {
     gap: 12px;
 }
 
-.welcome .wrapper article {
+.wrapper article {
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -243,4 +247,30 @@ nav .wrapper {
 
 .gallery img {
     max-width: 100%;
+}
+
+.offer {
+    padding-top: 0;
+    text-align: center;
+}
+
+.offercards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 31px;
+    padding-top: 24px;
+    justify-content: center;
+}
+
+.offercard {
+    width: 380px;
+    padding: 015px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.offercard img {
+    width: 160px;
 }
