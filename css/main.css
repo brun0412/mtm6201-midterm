@@ -129,7 +129,7 @@ button {
 
 .buwh:hover, .buwh:focus {
     background-color: var(--bgorange);
-    color: #000;
+    color: #fff;
 }
 
 .bubl {
@@ -360,4 +360,16 @@ nav .wrapper {
     gap: 3px;
     padding: 0 20px 30px 20px;
     width: 315px;
+}
+
+footer {
+    color: #fff;
+    background-color: #000;
+    padding-bottom: 140px;
+}
+
+footer .wrapper {
+    border-top: #fff8 solid 1px;
+    padding: 9px 0;
+    text-align: center;
 }
