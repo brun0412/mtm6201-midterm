@@ -315,3 +315,49 @@ nav .wrapper {
 .abouttxt {
     gap: 20px;
 }
+
+.testimonials {
+    background-color: #000;
+    color: #fff;
+}
+
+.testcards {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    padding-top: 24px;
+    justify-content: center;
+}
+
+.test1 {
+    background-image: url("../images/testimonial-1.jpeg");
+}
+
+.test2 {
+    background-image: url("../images/testimonial-2.jpeg");
+}
+
+.test3 {
+    background-image: url("../images/testimonial-3.jpeg");
+}
+
+.test1, .test2, .test3 {
+    width: 350px;
+    height: 480px;
+    min-width: 312px;
+    background-size: cover;
+    background-position: center;
+    background-color: #0005;
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.testtxt {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    padding: 0 20px 30px 20px;
+    width: 315px;
+}
