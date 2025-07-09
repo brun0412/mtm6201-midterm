@@ -186,7 +186,6 @@ nav .wrapper {
 .dropdown {
     display: none;
     position: absolute;
-    background-color: #0008;
     z-index: 2;
     right: 0;
 }
@@ -195,9 +194,11 @@ nav .wrapper {
     display: block;
 }
 
-.dropdown li {
-    border-bottom: 1px solid #fff8;
-    padding: 5px;
+.dropdown li .buwh {
+    width: 130px;
+    font-size: 1rem;
+    padding: 4px 20px;
+    height: auto;
 }
 
 /* Did not see a way to make a touchscreen friendly dropdown without js */
