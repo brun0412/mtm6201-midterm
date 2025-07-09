@@ -213,6 +213,7 @@ nav .wrapper {
     color: #fff;
     background-color: #0008;
     background-blend-mode: overlay;
+    text-align: center;
 }
 
 .hero .wrapper {
@@ -234,6 +235,11 @@ nav .wrapper {
 
 .herotext article {
     gap: 12px;
+    align-items: center;
+}
+
+.herotext p {
+    max-width: 540px;
 }
 
 .gallery {
@@ -372,4 +378,36 @@ footer .wrapper {
     border-top: #fff8 solid 1px;
     padding: 9px 0;
     text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    section {
+        padding: 80px 0;
+    }
+
+    .offer {
+        padding-top: 0;
+    }
+
+    .hero {
+        height: 600px;
+    }
+
+    .hero .buwh {
+        height: 56px;
+        padding: 15px 40px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .offercard:nth-child(1) {
+        width: 350px;
+    }
+
+    .offercard:nth-child(2) {
+        width: 340px;
+    }
 }
