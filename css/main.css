@@ -320,6 +320,11 @@ nav .wrapper {
     gap: 32px;
 }
 
+.aboutinner img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
 .abouttxt {
     gap: 20px;
 }
